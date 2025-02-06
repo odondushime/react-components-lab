@@ -40,3 +40,23 @@
 .read-the-docs {
   color: #888;
 }
+.weather-container {
+  text-align: center;
+  padding: 20px;
+}
+
+.weather-forecast-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.weather-card {
+  background: #f5f5f5;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 150px;
+}
